@@ -193,6 +193,7 @@ address{
 .followus img:hover
 {
 	transform: rotate(300deg) scale(1.5);
+	 
 }
 .followus .container{
 	padding-left: 200px;
