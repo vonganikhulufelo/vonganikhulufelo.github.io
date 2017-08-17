@@ -29,6 +29,7 @@ li{
 	left:0px;
 	list-style-type:none;
 	text-align:center;
+	margin:0;
 }
 .home p{
 font-size:90px;
@@ -73,7 +74,7 @@ width: 24.5%;
 display:inline-block;
 }
 .contactus img{
-	height:500px;
+	height:300px;
 }
 .social{
 width: 20%;
@@ -192,6 +193,10 @@ address{
 .followus img:hover
 {
 	transform: rotate(300deg) scale(1.5);
+}
+.followus .container{
+	padding-left: 200px;
+	padding-right: 200px;
 }
 .career{
   padding-top: 60px;
