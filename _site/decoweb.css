@@ -1,0 +1,208 @@
+body{
+	margin:0;
+	padding:0px 0px;
+width:100%;
+background-color: rgb(10,10,10) !important;
+color:white !important;
+text-align:center;	
+}
+div{width: 100%
+}
+
+.hee{
+position: static;
+top:0px;
+left:0px;
+right:0px;
+width:100%;
+z-index:10000;
+}
+header p{
+	width: 100%;
+	text-align: center;
+}
+h3,h4{
+	text-align: center;	
+}
+li{
+	width:100%;
+	left:0px;
+	list-style-type:none;
+	text-align:center;
+}
+.home p{
+font-size:90px;
+}
+section{
+width: 100%;
+height:800px;
+}
+ul{
+	width:100%;
+}
+a:hover{
+	color:green !important;
+}
+
+li.hea{
+display: inline-block;
+width: 13%;
+text-align: center;
+
+}
+.social img{
+left:0px;
+background-size: cover;
+height:30px;
+border-radius: 50px;
+vertical-align: middle;
+}
+.gallary img{
+left:0px;
+background-size: cover;
+height:150px;
+border-radius: 0px;
+}
+.gallary img:hover{
+	transform: rotate(10deg) scale(1.5);
+	z-index: 10;
+	height:100px;
+}
+.gallary p{
+width: 24.5%;
+display:inline-block;
+}
+.contactus img{
+	height:500px;
+}
+.social{
+width: 20%;
+text-align: center;
+}
+.container, .row{
+	width:100%;
+}
+a{
+	text-decoration: none;
+	color:white !important;
+}
+header{
+border-bottom: 1px solid #466995;
+background-color: rgb(10,10,10);
+ box-sizing: border-box;
+ position: fixed;
+ left: 0;
+ top: 0px;
+ text-align: center;
+ width: 100%;
+ z-index: 999;
+}
+
+.home{
+background: url("cl.jpg");
+width: 100%;
+top:0px;
+left:0px;
+background-size:cover !important;
+font-size: 100px;
+text-align:center !important;
+color:white;
+position:absolute;
+position: static;
+padding-top: 40px;
+}
+
+footer{
+text-align: center;
+position: static;
+position: relative;
+top:0px;
+height:100px;
+}
+
+img{
+background-size: cover;
+}
+.serviceli{
+list-style-type: none:
+width: 100%;
+color: white;
+display: block;
+text-align: center;
+}
+address{
+	text-align:center;
+}
+
+.service{
+  width: 100%;
+  margin: 0px;
+  text-align: center;
+  position: static;
+  position: relative;
+  top: 0px;
+  padding-top: 60px;
+ 
+}
+#section-2{
+	 background-size: cover !important;
+  background: url("2.jpg");
+  background-attachment:fixed;
+	 width: 100%;
+  margin: 0px;
+}
+
+.aboutus{
+	padding-top: 60px;
+	 width: 100%;
+  margin: 0;
+  text-align: center;
+  position: static;
+  position: relative;
+  top: 0px;
+}
+.gallary{
+	padding-top: 60px;
+	 width: 100%;
+  margin: 0;
+  text-align: center;
+  position: static;
+  position: relative;
+  top: 0px;
+}
+.contactus{
+	padding-top: 60px;
+	 width: 100%;
+  margin: 0;
+  text-align: center;
+  position: static;
+  position: relative;
+  top: 0px;
+}
+.followus{
+  padding-top: 60px;
+  width: 100%;
+  margin: 0;
+  text-align: center;
+  position: static;
+  position: relative;
+  top: 0px;
+  height:200px;
+}
+.followus img:hover
+{
+	transform: rotate(300deg) scale(1.5);
+}
+.career{
+  padding-top: 60px;
+  width: 100%;
+  margin: 0;
+  text-align: center;
+  position: static;
+  position: relative;
+  top: 0px;
+}
+.cantactmap{
+	background-size: cover;
+    height:200px;
+}
