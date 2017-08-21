@@ -121,7 +121,8 @@ text-align: center;
 position: static;
 position: relative;
 top:0px;
-height:100px;
+height:auto;
+padding-top: 60px;
 }
 
 img{
@@ -195,7 +196,7 @@ address{
   position: static;
   position: relative;
   top: 0px;
-  height:200px;
+  height:auto;
 }
 .followus img:hover
 {
