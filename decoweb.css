@@ -7,6 +7,7 @@ width:100%;
 background-color: rgb(10,10,10) !important;
 color:white !important;
 text-align:center;	
+font-family:serif;
 }
 }
 div{width: 100%
@@ -220,5 +221,7 @@ address{
 	background-size: cover;
     height:200px;
 }
-@mediaonly screen and (min-width 500px) and (max-width 780px) 
+@media  screen and (min-width 320px) 
 {
+	
+}
