@@ -1,3 +1,5 @@
+
+html,
 body{
 	margin:0;
 	padding:0px 0px;
@@ -5,6 +7,7 @@ width:100%;
 background-color: rgb(10,10,10) !important;
 color:white !important;
 text-align:center;	
+}
 }
 div{width: 100%
 }
@@ -36,7 +39,7 @@ font-size:90px;
 }
 section{
 width: 100%;
-height:800px;
+height:auto;
 }
 ul{
 	width:100%;
@@ -162,6 +165,10 @@ address{
   position: relative;
   top: 0px;
 }
+.aboutus img{
+	height:100px;
+
+}
 .gallary{
 	padding-top: 60px;
 	 width: 100%;
@@ -212,3 +219,5 @@ address{
 	background-size: cover;
     height:200px;
 }
+@mediaonly screen and (min-width 500px) and (max-width 780px) 
+{
