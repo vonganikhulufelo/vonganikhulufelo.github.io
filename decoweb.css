@@ -238,7 +238,8 @@ header{
 border-bottom: 1px solid #466995;
 background-color: rgb(10,10,10);
  box-sizing: border-box;
- position: fixed;
+ position: static;
+  position: relative;
  z-index: 999;
  left: 0;
  top: 0px;
