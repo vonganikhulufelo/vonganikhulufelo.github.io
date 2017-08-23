@@ -1,4 +1,7 @@
-
+*{
+		margin:0;
+	padding:0px 0px;
+}
 html,
 body{
 	margin:0;
@@ -41,6 +44,8 @@ font-size:90px;
 section{
 width: 100%;
 height:auto;
+left:0px;
+right:0px;
 }
 ul{
 	width:100%;
@@ -55,11 +60,10 @@ width: 13%;
 text-align: center;
 
 }
-.social img{
+#social img{
 left:0px;
 background-size: cover;
-height:30px;
-border-radius: 50px;
+height:20px;
 vertical-align: middle;
 }
 .gallary img{
@@ -67,6 +71,7 @@ left:0px;
 background-size: cover;
 height:150px;
 border-radius: 0px;
+text-align:center;
 }
 .gallary img:hover{
 	transform: rotate(10deg) scale(1.5);
@@ -80,12 +85,16 @@ display:inline-block;
 .contactus img{
 	height:300px;
 }
-.social{
-width: 20%;
+#social{
+width: 10%;
 text-align: center;
+left:30%;
+right:30%;
 }
 .container, .row{
 	width:100%;
+	left:0;
+	right:0;
 }
 a{
 	text-decoration: none;
@@ -95,7 +104,7 @@ header{
 border-bottom: 1px solid #466995;
 background-color: rgb(10,10,10);
  box-sizing: border-box;
- position: relative;
+ position: fixed;
  left: 0;
  top: 0px;
  text-align: center;
@@ -172,13 +181,15 @@ address{
 
 }
 .gallary{
-	padding-top: 60px;
-	 width: 100%;
+ padding-top: 60px;
+  width: 100%;
   margin: 0;
   text-align: center;
   position: static;
   position: relative;
   top: 0px;
+  left:0px;
+  right:0px;
 }
 .contactus{
 	padding-top: 60px;
@@ -205,8 +216,8 @@ address{
 	 
 }
 .followus .container{
-	padding-left: 200px;
-	padding-right: 200px;
+	padding-left: 0px;
+	padding-right: 0px;
 }
 .career{
   padding-top: 60px;
@@ -222,7 +233,7 @@ address{
     height:200px;
 }
 
-@media screen and (min-width:320px) and (max-width:1024px){
+@media screen and (max-width:768px){
 header{
 border-bottom: 1px solid #466995;
 background-color: rgb(10,10,10);
@@ -233,5 +244,8 @@ background-color: rgb(10,10,10);
  top: 0px;
  text-align: center;
  width: 100%;
+}
+li{
+	font-size:10px;
 }
 }
