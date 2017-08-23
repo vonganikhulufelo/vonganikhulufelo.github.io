@@ -233,7 +233,7 @@ address{
     height:200px;
 }
 
-@media screen and (max-width:768px){
+@media screen and (max-width: 1024px){
 header{
 border-bottom: 1px solid #466995;
 background-color: rgb(10,10,10);
