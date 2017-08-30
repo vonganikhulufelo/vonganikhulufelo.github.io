@@ -281,7 +281,6 @@ background-size:cover !important;
 font-size: 100px;
 text-align:center !important;
 color:white;
-
 position: static;
 padding-top: 150px;
 }
@@ -291,8 +290,10 @@ padding-top: 150px;
   margin: 0px;
   text-align: center;
   position: relative;
+   position: static;
   top: 0px;
   padding-top: 150px;
+  height:auto;
 }
 .aboutus{
 	padding-top: 150px;
@@ -302,6 +303,7 @@ padding-top: 150px;
   position: static;
   position: relative;
   top: 0px;
+   height:auto;
 }
 .gallary{
  padding-top: 150px;
@@ -313,14 +315,17 @@ padding-top: 150px;
   top: 0px;
   left:0px;
   right:0px;
+   height:auto;
 }
 .contactus{
 	padding-top: 150px;
 	 width: 100%;
   margin: 0;
   text-align: center;
+   position: static;
   position: relative;
   top: 0px;
+   height:auto;
 }
 .followus{
   padding-top: 150px;
