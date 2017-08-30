@@ -108,7 +108,6 @@ background-color: rgb(10,10,10);
 }
 
 .home{
-	
 background: url("cl.jpg");
 width: 100%;
 top:0px;
@@ -120,6 +119,7 @@ color:white;
 position:absolute;
 position: static;
 padding-top: 40px;
+height:auto;
 }
 
 footer{
@@ -152,7 +152,7 @@ address{
   position: relative;
   top: 0px;
   padding-top: 60px;
- 
+ height:auto;
 }
 #section-2{
 	 background-size: cover !important;
@@ -272,7 +272,7 @@ padding-top: 150px;
 }
 
 .home{
-height:800px;
+height:auto;
 background: url("cl.jpg");
 width: 100%;
 top:0px;
@@ -290,7 +290,7 @@ padding-top: 150px;
   margin: 0px;
   text-align: center;
   position: relative;
-   position: static;
+  position: static;
   top: 0px;
   padding-top: 150px;
   height:auto;
