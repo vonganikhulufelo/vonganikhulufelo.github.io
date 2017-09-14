@@ -55,6 +55,9 @@ width: 13%;
 text-align: center;
 
 }
+.but{
+	display:none;
+}
 #social img{
 left:0px;
 background-size: cover;
@@ -96,15 +99,14 @@ a{
 	color:white !important;
 }
 header{
-border-bottom: 1px solid #466995;
 background-color: rgb(10,10,10);
- box-sizing: border-box;
- position: fixed;
- left: 0;
- top: 0px;
- text-align: center;
- width: 100%;
- z-index: 999;
+position: fixed;
+left: 0;
+top: 0px;
+text-align: center;
+width: 100%;
+z-index: 999;
+box-shadow: 0px 8px 16px 0px rgb(10,10,10);
 }
 
 .home{
@@ -228,30 +230,73 @@ address{
     height:200px;
 }
 
-@media screen and (max-width:768px){
+@media screen and (max-width:1025px){
 header{
-border-bottom: 1px solid #466995;
+box-shadow: 0px 8px 16px 0px rgb(10,10,10);
 background-color: rgb(10,10,10);
  box-sizing: border-box;
  position: fixed;
  z-index: 999;
  left: 0;
  top: 0px;
+ right:0;
  text-align: center;
  width: 100%;
+ display:black;
+ height:auto;
 }
-header ul{
-	padding:0px;
-	width:100%;	
-	list-style-type:none;	
-}
-header li{
-	display:block;
+
+.dis{
+	display:none;
 	text-align:center;
 	font-size:12px;
 	padding:0px;
 	width:100%;
+	position:static;
+	height:320px;
+	background-color: rgb(10,10,10);
+	margin-top:0;
+	right:0;
 }
+header li{
+	display:block;
+	width:100%;
+	text-align:center;
+	height:50px;
+	list-style-type:none;	
+	text-decoration:none;
+}
+.but{
+	display:inline-block;
+	float:right;
+	width:20%;
+	right:0;
+	top:0;
+	background-color: rgb(10,10,10);
+	outline:none;
+	border:rgb(10,10,10);
+	height:50px;
+	position:static;
+	top:0;
+}
+.my{
+	width:100%;
+	display:inline-block;
+	position:static;
+}
+.log{
+	display:block;
+	float:left;
+	width:30%;
+	left:0;
+	text-align:center;
+	position:static;
+	height:50px;
+}
+.show{
+	display:block;
+}
+
 section{
 width: 100%;
 height:auto;

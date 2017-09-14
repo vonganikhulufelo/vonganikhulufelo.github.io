@@ -2,23 +2,43 @@
 <head>
 <title>page</title>
 <link rel="stylesheet" type="text/css" href="decoweb.css">
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<script>
+
+</script>
 </head>
 
 <body>
 <header>
 <div class="row">
-<p>VONGAPP</p>
-<ul>
-<li><a href="#section-1">Home</a></li>
-<li><a href="#section-2">Service</a></li>
-<li><a href="#section-3">About Us</a></li>
-<li><a href="#section-4">Gallery</a></li>
-<li><a href="#section-5">Contact Us</a></li>
-<li><a href="#section-6">Follow Us</a></li>
-<li><a href="#section-7">Careers</a></li>
+<div class="my">
+<p class="log">VONGAPP</p>
+<button class="but">Menu</button>
+</div>
+<ul id="drop" class="dis">
+<li><a href="#section-1" class="link">Home</a></li>
+<li><a href="#section-2" class="link">Service</a></li>
+<li><a href="#section-3" class="link">About Us</a></li>
+<li><a href="#section-4" class="link">Gallery</a></li>
+<li><a href="#section-5" class="link">Contact Us</a></li>
+<li><a href="#section-6" class="link">Follow Us</a></li>
+<li><a href="#section-7" class="link">Careers</a></li>
 </ul>
 </div>
+<script>
+<!--function myFunction(){document.getElementById("drop").classList.toggle("show");}-->
+
+$(document).ready(function(){
+$(".but").click(function(){
+  $("#drop").slideToggle("slow");
+  $(".link").click(function(){
+  $("#drop").slideUp("slow");
+});
+});
+});
+</script>
 </header>
 
 <section id="section-1" class="home">
