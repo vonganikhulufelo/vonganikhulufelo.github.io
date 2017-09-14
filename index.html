@@ -12,12 +12,12 @@
 
 <body>
 <header>
-<div class="row">
+<div class="ll">
 <div class="my">
 <p class="log">VONGAPP</p>
-<button class="but">Menu</button>
+<button class="but" onclick="myFunction()">Menu</button>
 </div>
-<ul id="drop" class="dis">
+<ul id="drop" class="dis" onclick="myFunction1()">
 <li><a href="#section-1" class="link">Home</a></li>
 <li><a href="#section-2" class="link">Service</a></li>
 <li><a href="#section-3" class="link">About Us</a></li>
@@ -28,16 +28,13 @@
 </ul>
 </div>
 <script>
-<!--function myFunction(){document.getElementById("drop").classList.toggle("show");}-->
+function myFunction(){
+document.getElementById("drop").classList.toggle("show");
+}
+function myFunction1(){
+document.getElementById("drop").classList.toggle("show");
+}
 
-$(document).ready(function(){
-$(".but").click(function(){
-  $("#drop").slideToggle("slow");
-  $(".link").click(function(){
-  $("#drop").slideUp("slow");
-});
-});
-});
 </script>
 </header>
 
