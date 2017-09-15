@@ -10,8 +10,7 @@ width:100%;
 background-color: rgb(10,10,10) !important;
 color:white !important;
 text-align:center;	
-font-family:serif;
-
+font-family:sans-serif;
 }
 }
 div{width: 100%
@@ -40,6 +39,8 @@ width: 100%;
 height:auto;
 left:0px;
 right:0px;
+display:block;
+position:static;
 }
 header ul{
 	width:100%;
@@ -59,45 +60,41 @@ text-align: center;
 .but{
 	display:none;
 }
-#social img{
-left:0px;
-background-size: cover;
-height:20px;
-vertical-align: middle;
-}
 .gallary img{
 left:0px;
-background-size: cover;
-height:150px;
-border-radius: 0px;
+width:100%;
+height:100px;
 text-align:center;
+
+
 }
 .gallary img:hover{
-	transform: rotate(10deg) scale(1.5);
+	transform: rotate(0deg) scale(1.2);
 	z-index: 10;
 	height:100px;
+	width:100% !important;
 }
 .gallary p{
-width: 24.5%;
+width: 100%;
 display:inline-block;
 }
 .contactus img{
 	height:300px;
+	width:100%;
 }
-#social{
-width: 10%;
-text-align: center;
-left:30%;
-right:30%;
+.gallary .row div{
+	
 }
+
 .container, .row{
 	width:100%;
 	left:0;
 	right:0;
 }
 a{
-	text-decoration: none;
+	text-decoration: none !important;
 	color:white !important;
+	list-style-type:none;
 }
 header{
 background-color: rgb(10,10,10);
@@ -134,9 +131,6 @@ height:auto;
 padding-top: 60px;
 }
 
-img{
-background-size: cover;
-}
 .serviceli{
 list-style-type: none;
 width: 100%;
@@ -176,7 +170,6 @@ address{
 }
 .aboutus img{
 	height:100px;
-
 }
 .gallary{
  padding-top: 60px;
@@ -199,23 +192,41 @@ address{
   top: 0px;
 }
 .followus{
-  padding-top: 60px;
+
   width: 100%;
   margin: 0;
   text-align: center;
   position: static;
-  position: relative;
+   position: relative;
   top: 0px;
   height:auto;
+  right:0;
+left:0;
+
 }
+.followus a{
+width:22%;
+display:inline-block;
+}
+.followus h3{
+width:100%;	
+display:block;
+}
+.followus img{
+width:100%;
+height:50px;	
+vertical-align: middle;	
+}
+.followus .rows{
+right:0;
+left:0;
+position: static;
+position: relative;
+}
+
 .followus img:hover
 {
-	transform: rotate(300deg) scale(1.5);
-	 
-}
-.followus .container{
-	padding-left: 0px;
-	padding-right: 0px;
+	transform: rotate(300deg) scale(1.5);	 
 }
 .career{
   padding-top: 60px;
@@ -231,7 +242,17 @@ address{
     height:200px;
 }
 
-@media screen and (max-width:1025px){
+@media screen and (max-width:1023px){
+	body{
+	margin:0;
+	padding:0px 0px;
+width:100%;
+background-color: rgb(10,10,10) !important;
+color:white !important;
+text-align:center;	
+font-family:sans-serif;
+font-size:27px !important;
+}
 header{
 box-shadow: 0px 8px 16px 0px rgb(10,10,10);
 background-color: rgb(10,10,10);
@@ -256,7 +277,7 @@ background-color: rgb(10,10,10);
 	position:static;
 	height:320px;
 	background-color: rgb(10,10,10);
-	margin-top:0;
+	margin-top:50px;
 	right:0;
 }
 header li{
@@ -389,5 +410,8 @@ padding-top: 150px;
   position: relative;
   top: 0px;
   height:auto;
+}
+h4,h3{
+	font-size:30px !important;
 }
 }
