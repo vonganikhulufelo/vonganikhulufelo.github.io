@@ -51,6 +51,7 @@ a:hover{
 	color:green !important;
 }
 
+
 header li{
 display: inline-block;
 width: 13%;
@@ -100,7 +101,7 @@ header{
 background-color: rgb(10,10,10);
 position: fixed;
 left: 0;
-top: 0px;
+top: 0px !important;
 text-align: center;
 width: 100%;
 z-index: 999;
@@ -113,13 +114,13 @@ width: 100%;
 top:0px;
 left:0px;
 background-size:cover !important;
-font-size: 100px;
+font-size: 90px;
 text-align:center !important;
 color:white;
 position:absolute;
 position: static;
-padding-top: 40px;
-height:900px;
+padding-top:40px;
+height:auto;
 }
 
 footer{
@@ -152,7 +153,7 @@ address{
  height:auto;
 }
 #section-2{
-	 background-size: cover !important;
+	 background-size: 100% 100% !important;
   background: url("2.jpg");
   background-attachment:fixed;
 	 width: 100%;
@@ -241,8 +242,34 @@ position: relative;
 	background-size: cover;
     height:200px;
 }
-
-@media screen and (max-width:1023px){
+.sho{
+	display:block;
+}
+#form1{
+	display:block;
+}
+#form-page{
+	position:fixed;
+	display:none;
+	z-index:999;
+	height:auto;
+	background:rgb(10,10,10);
+	width:80%;
+	padding-top:50px;
+	overflow-y:scroll;
+	margin:0;
+	left:20%;
+}
+.formbut{
+	outline:none;
+	border:rgb(10,10,10);
+    background-color:rgb(10,10,10);	
+}
+.formbut:hover{
+	color:green !important;
+}
+/*@media*/
+@media screen and (max-width:992px){
 	body{
 	margin:0;
 	padding:0px 0px;
@@ -251,7 +278,7 @@ background-color: rgb(10,10,10) !important;
 color:white !important;
 text-align:center;	
 font-family:sans-serif;
-font-size:27px !important;
+font-size:15px !important;
 }
 header{
 box-shadow: 0px 8px 16px 0px rgb(10,10,10);
@@ -264,21 +291,22 @@ background-color: rgb(10,10,10);
  right:0;
  text-align: center;
  width: 100%;
- display:black;
- height:auto;
+ display:inline-block;
+ height:100px;
 }
 
 .dis{
-	display:none;
+	display:none !important;
 	text-align:center;
 	font-size:12px;
 	padding:0px;
 	width:100%;
 	position:static;
-	height:320px;
+	height:auto;
 	background-color: rgb(10,10,10);
-	margin-top:50px;
 	right:0;
+	top:0;
+	box-shadow: 0px 8px 16px 0px rgb(10,10,10);
 }
 header li{
 	display:block;
@@ -287,7 +315,7 @@ header li{
 	height:50px;
 	list-style-type:none;	
 	text-decoration:none;
-	font-size:25px; !important
+	font-size:25px !important;
 }
 header li a:hover{
 	text-decoration:none;
@@ -412,6 +440,9 @@ padding-top: 150px;
   height:auto;
 }
 h4,h3{
-	font-size:30px !important;
+	font-size:25px !important;
+}
+#form-page{
+	display:none;
 }
 }

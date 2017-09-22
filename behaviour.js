@@ -15,3 +15,17 @@ e.preventDefault();
    scrollTop: $( $(this).attr('href') ).offset().top }, 2000);
 });
 });
+
+$(document).ready(function(){
+	$(".formbut").click(function(){
+		$("#form-page").slideToggle();		
+	});
+});
+
+$(document).ready(function(){
+	$(".but").click(function(){
+		$("#form-page").slideUp();
+	});
+});
+
+
