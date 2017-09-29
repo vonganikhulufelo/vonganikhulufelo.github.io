@@ -22,10 +22,23 @@ $(document).ready(function(){
 	});
 });
 
+
+
 $(document).ready(function(){
-	$(".but").click(function(){
+	$(".close").click(function(){
 		$("#form-page").slideUp();
 	});
+});
+
+$(window).resize(function(){
+	if($(window).width() <= 700){
+		
+	}
+	else
+	{
+		
+	}
+		
 });
 
 

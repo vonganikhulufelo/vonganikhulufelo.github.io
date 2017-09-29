@@ -28,6 +28,17 @@ h3,h4{
 .home p{
 font-size:70px;
 }
+.close{
+	right:20px !important;
+	top:0 !important;
+	color:white !important;
+	display:block;
+	position:absolute;
+	
+}
+.close:hover{
+	color:red !important;
+}
 
 .home strong{
 filter: blur(1px);
@@ -247,6 +258,8 @@ position: relative;
 }
 #form1{
 	display:block;
+	position:relative;
+	width:100%;
 }
 #form-page{
 	position:fixed;
@@ -256,10 +269,17 @@ position: relative;
 	background:rgb(10,10,10);
 	width:80%;
 	padding-top:50px;
-	overflow-y:scroll;
 	margin:0;
 	left:20%;
+	top: 10px !important;
 }
+#form-page input{
+	width:50% !important;
+	left:25%;
+	position:relative;
+	text-align:center;
+}
+
 .formbut{
 	outline:none;
 	border:rgb(10,10,10);
@@ -269,7 +289,7 @@ position: relative;
 	color:green !important;
 }
 /*@media*/
-@media screen and (max-width:992px){
+@media screen and (max-width: 992px){
 	body{
 	margin:0;
 	padding:0px 0px;
